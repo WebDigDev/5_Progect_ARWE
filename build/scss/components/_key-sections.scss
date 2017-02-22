@@ -1,0 +1,70 @@
+.key-sections {
+	position: relative;
+	a {
+		display: block;
+		text-decoration: none;
+		color: #fff;
+	}
+}
+
+.key-sections__title {
+	padding: 0;
+	margin: 0 ;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 29px;
+	font-weight: 300;
+	line-height: 23px;
+	text-transform: none;
+	margin-bottom: 30px;
+}
+
+.key-sections__items {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+.key-sections__item {
+	flex-basis: 50%;
+	height: 330px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.key-sections__item_1 {
+	background-image: url("../img/decor-key1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.key-sections__item_2 {
+	background-image: url("../img/decor-key2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.key-sections__item-text {
+	font-size: 35px;
+}
+
+.key-sections__link {
+	position: absolute;
+	padding: 9px 17px;
+	background-color: #0ba7d5 ;
+	box-shadow:  -130px 0 150px -50px  #90c34d inset;
+	border-radius: 5px;
+	font-size: 24px;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 25px;
+	transition: 0.5s;
+	&:hover {
+		 animation: gradient 2s infinite alternate;
+		 animation-play-state: running;
+	}
+
+}

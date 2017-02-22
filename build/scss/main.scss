@@ -1,0 +1,73 @@
+@import "bourbon";
+@import "components/first_comp/_fonts.scss";
+@import "components/first_comp/_vars.scss";
+@import "components/first_comp/_normalize.scss";
+@import "components/first_comp/_normalize.scss";
+@import "components/first_comp/_animation.scss";
+@import "components/first_comp/animate.scss";
+
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+}
+
+
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+*:-ms-input-placeholder {
+	color: transparent;
+	opacity: 1;
+}
+:focus::-webkit-input-placeholder {color: transparent}
+:focus::-moz-placeholder          {color: transparent}
+:focus:-moz-placeholder           {color: transparent}
+:focus:-ms-input-placeholder      {color: transparent}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	color: #666;
+}
+body input:required:valid,
+body textarea:required:valid {
+	color: #666;
+}
+
+input[type="radio"],input[type="radio"] {
+  outline: none;
+}
+
+//Load Libs SASS
+@import "html/libs/owl.carousel/assets/owl.carousel.min";
+ @import "html/libs/font-awesome/scss/font-awesome";
+// @import "html/libs/jQueryFormStyler-master/jquery.formstyler";
+// @import "html/libs/jquery-ui-1.12.0/jquery-ui.min.scss";
+// //@import "html/libs/magnific-popup/dist/magnific-popup";
+
+
+
+//Custom Styles Here
+@import "components/_header.scss";
+@import "components/_arwe2016.scss";
+@import "components/_key-sections.scss";
+@import "components/_types.scss";
+@import "components/_partners.scss";
+@import "components/_location.scss";
+@import "components/_footer.scss";
+@import "components/reg-form.scss";
+
+//@import "build/scss/components/magnific-popup.scss";
+
+//ALWAYS END
+@import "components/first_comp/_media.scss";

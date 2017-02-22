@@ -1,0 +1,37 @@
+
+// animation: pulse 0.2s ;
+@keyframes pulse {
+	0% {
+	box-shadow: 0 0 0 lightness(#0ba7d5 ) ;
+	}
+	100% {
+	box-shadow: 0 0 50px #0ba7d5 ;
+	}
+}
+
+
+
+  // animation-name: scale;
+  // animation-duration: 26s;
+  // animation-iteration-count: infinite;
+  // animation-timing-function: cubic-bezier(.25,0,.75,1)
+@keyframes scale {
+    0%,100% {
+        transform: scale(1);
+        transform: scale(1)
+    }
+
+    50% {
+        transform: scale(1.2) translate(30px,30px) translateZ(0);
+        transform: scale(1.2) translate(30px,30px) translateZ(0)
+    }
+}
+
+
+// animation: gradient 3s infinite alternate;
+@keyframes gradient {
+  50% {
+    background: #90c34d;
+    box-shadow:  -130px 0 150px -50px  #0ba7d5 inset;
+  }
+}
